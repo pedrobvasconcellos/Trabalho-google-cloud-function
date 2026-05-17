@@ -1,12 +1,9 @@
 {
   "name": "flowly_relatorio_function",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "start": "npm run build && npx @google-cloud/functions-framework --target=gerarRelatorioTarefas",
-    "watch": "tsc -w"
+    "start": "functions-framework --target=gerarRelatorioTarefas"
   },
   "keywords": [],
   "author": "",
